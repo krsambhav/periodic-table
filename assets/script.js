@@ -14,6 +14,7 @@ function data(){
                 this.document.getElementById("atomicNum").innerHTML = data.elements[res-1].number;
                 this.document.getElementById("atomicWeight").innerHTML = data.elements[res-1].atomic_mass;
                 this.document.getElementById("eConfig").innerHTML = data.elements[res-1].electron_configuration;
+                this.document.getElementById("category").innerHTML = data.elements[res-1].category;
                 var scientist = data.elements[res-1].discovered_by;
                 if(scientist!=null)
                     this.document.getElementById("discoveredBy").innerHTML = "Discovery: " + data.elements[res-1].discovered_by;

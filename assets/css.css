@@ -102,8 +102,17 @@ body{
 }
 .info #atomicWeight{
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 #modeButton{
     float: right;
+}
+.info #eConfig{
+    color: #555;
+}
+.info #category{
+    color: #555;
+}
+.info #discoveredBy{
+    color: #555;
 }
