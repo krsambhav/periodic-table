@@ -107,12 +107,3 @@ body{
 #modeButton{
     float: right;
 }
-.info #eConfig{
-    color: #555;
-}
-.info #category{
-    color: #555;
-}
-.info #discoveredBy{
-    color: #555;
-}
