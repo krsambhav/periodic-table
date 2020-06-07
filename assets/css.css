@@ -22,21 +22,16 @@ body{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 80%;
-    width: 90%;
+    height: fit-content;
+    width: fit-content;
     padding: 10px;
-    margin-bottom: 100px;
+
 }
-@media (max-width: 1000px) {
-    .main-container {
-      width: 800px;
-    }
-  }
 .grid-container{
     font-family: Bree Serif;
     font-size: 20px;
     display: grid;
-    grid-template-columns: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 70px);
     grid-template-rows: repeat(9, 70px); 
     gap: .4em;
 }
