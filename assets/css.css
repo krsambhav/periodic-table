@@ -1,5 +1,9 @@
+@font-face {
+  font-family: Brandon;
+  src: url(./Brandon_reg.otf);
+}
 body {
-  font-family: Bree Serif;
+  font-family: Brandon;
 }
 .light {
   transition: 0.5s;
@@ -226,7 +230,6 @@ body {
   left: 230px;
   position: absolute;
   text-align: center;
-  padding-top: 20px;
 }
 .info #name {
   font-size: 40px;
