@@ -41,9 +41,9 @@ body {
   gap: 0.4em;
 }
 @media (max-width: 1000px) {
-    .main-container{
+    /* .main-container{
         display: none;
-    }
+    } */
   .grid-container {
     font-family: Bree Serif;
     font-size: 10px;
@@ -243,4 +243,27 @@ body {
 }
 #modeButton {
   float: right;
+}
+
+@media (max-width: 1000px) {
+  .info{
+    width: 500px;
+  height: 180px;
+  left: 60px;
+  position: absolute;
+  text-align: center;
+  }
+  .info #name {
+    font-size: 15px;
+  }
+  .info #atomicNum {
+    font-size: 10px;
+  }
+  .info #atomicWeight {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .info #eConfig, #category, #discoveredBy{
+    font-size: 10px;
+  }
 }
