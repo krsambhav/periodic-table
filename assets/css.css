@@ -31,12 +31,12 @@ body {
 
 .grid-container {
   font-family: 'Titillium Web';
-
   font-size: 20px;
   display: grid;
   grid-template-columns: repeat(18, 70px);
   grid-template-rows: repeat(9, 70px);
   gap: 0.4em;
+  user-select: none;
 }
 @media (max-width: 1000px) {
     /* .main-container{
